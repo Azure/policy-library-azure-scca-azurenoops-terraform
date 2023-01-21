@@ -1,14 +1,24 @@
-# Project
+# Microsoft Azure SCCA Mission Enclaves using the Azure NoOps Accelerator for Terraform
+This library, provides prescriptive Terraform policies that can be used to establish secure Terraform configuration for Microsoft Azure. The policies that are contained in this library are based on the [Secure Cloud Computing Architecture (SCCA) Functional Requirements Document (FRD)](https://rmf.org/wp-content/uploads/2018/05/SCCA_FRD_v2-9.pdf). Terraform Cloud/Enterprise users can use the policies in this library to establish a foundational level of security for the services that they are adopting in Microsoft Azure.
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+The SCCA has four components:
 
-As the maintainer of this project, please make a few updates:
+- [Boundary Cloud Access Point (BCAP)](#BCAP-Controls)
+- [Virtual Datacenter Security Stack (VDSS)](#VDSS-Controls)
+- [Virtual Datacenter Managed Services (VDMS)](#VDMS-Controls)
+- [Trusted Cloud Credential Manager (TCCM)](#TCCM-Controls)
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+> **NOTE:**
+>
+> This Policy Library is not an exhaustive list of all of possible security configurations and architecture that is available in Microsoft Azure. If you have questions, comments, or have identified ways for us to improve this library, please create [a new GitHub issue](https://github.com/Azure/policy-library-azure-scca-azurenoops-terraform/issues/new/choose).
+>
+> Alternatively, We welcome any contributions that improve the quality of this library! To learn more about contributing and suggesting changes to this library, refer to the [contributing guide](https://github.com/Azure/policy-library-azure-scca-azurenoops-terraform/blob/main/CONTRIBUTING.md).
+
+---
+
+## Policies included
+
+---
 
 ## Contributing
 
